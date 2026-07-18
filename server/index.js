@@ -8,6 +8,15 @@ app.use(cors());
 app.use(express.json());
 
 const projects = [
+    {
+    id: 0,
+    title: "NoteBuddy",
+    description:
+      "An Ai powered note taking app that can get things done",
+    tech: ["Vite", "Vercel", "Supabase", "TypeScript"],
+    github: "https://github.com/ARES3940/NoteBuddy",
+    demo: "https://notebuddy-one.vercel.app/",
+  },
   {
     id: 1,
     title: "Taser Gun",
